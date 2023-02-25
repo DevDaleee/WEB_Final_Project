@@ -7,6 +7,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+/* Cabeçalho */
 
 header{
     margin-left: 50px;
@@ -27,20 +28,72 @@ h1{
     text-align: center;
     padding-top: 75px;
 }
-
-.center a{
-    color: white;
-    background-color: #4B4545;
-    font-size: 50px;
-}
-
 .center p{
     color: white;
     background-color: #4B4545;
-    font-size: 30px;
-    padding-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* Fórmulario */
+
+.contact{
+	max-width: 850px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #4B4545;
 }
 
+h2{
+    margin-bottom: 10px;
+    margin-top: -60px;
+    margin-left: -450px;
+    font-size: 35px;
+    color: white;
+    background-color: #4B4545;
+    justify-content: center;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+}
+.field{
+    width: 700px;
+    border: 2px solid #781313;
+    background-color: #4B4545;
+    padding: 0.5rem 1rem;
+    margin-left: 67%;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+    min-height: 120px;
+}
+
+.botao{
+	width: 70px;
+    margin-left: 107%;
+	background-color: #781313;
+    border:1.2rem transparent;
+    border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	transition: .4s;
+    font-size: 1.1rem;
+}
+
+.botao:hover{
+    background-color: #4B4545;
+    border: 0.1rem solid black;
+}
+
+/* Navigation Bar */
 li, a{
 
     font-weight: 500;
@@ -79,6 +132,7 @@ ul{
     color: black;
 }
 
+/* Rodapé */
 footer{
     position: absolute;
     bottom: 0;
