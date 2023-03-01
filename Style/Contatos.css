@@ -275,7 +275,13 @@ footer{
         text-align: justify;
         padding: 0;
     }
-
+    h2{
+        justify-content: center;
+        margin: 255px;
+    }
+    .field{
+        max-width: 400px;
+    }
     .movie-list li {
         flex-basis: calc(50% - 10px);
         width: calc(50% - 10px);
@@ -284,7 +290,13 @@ footer{
     footer{
         bottom: -270px;
     }
-
+    .contact{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    textarea{
+        max-width: 400px;
+    }
 }
 
 @media only screen and (max-width: 623px) {
@@ -309,6 +321,32 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
+    h2{
+        justify-content: center;
+        margin: 220px;
+    }
+    .field{
+        max-width: 400px;
+    }
+    .movie-list li {
+        flex-basis: calc(50% - 10px);
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+    footer{
+        bottom: -270px;
+    }
+    .contact p{
+        align-items: center;
+        margin-left: 240px;
+    }
+    .contact{
+        max-width: 170px;
+        max-height: 100px;
+    }
+    textarea{
+        max-width: 100px;
+    }
 
     header h1{
         font-size: 25px;
@@ -320,7 +358,9 @@ footer{
         margin-left: 2vw;
         margin-right: 5vw;
     }
-    
+    .contact button{
+        margin-right: -250px; 
+    }
     .links_navegacao {
         display: grid;
         height: auto;
@@ -350,7 +390,7 @@ footer{
         flex-wrap: wrap;
     }
     footer{
-        margin-top: 0;
+        margin-top: 10;
     };
 }   
 

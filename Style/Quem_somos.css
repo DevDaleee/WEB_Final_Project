@@ -259,6 +259,12 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
+    .center a{
+        font-size: 50px;
+    } 
+    .center p {
+      font-size: 17px;  
+    }
 
     header h1{
         font-size: 25px;
@@ -300,7 +306,7 @@ footer{
         flex-wrap: wrap;
     }
     footer{
-        margin-top: -300px;
+        margin-top: -200px;
     };
 }   
 
