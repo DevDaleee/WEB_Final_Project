@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="../Style/Quem_somos.css">
+    <link rel="stylesheet" href="../Style/Em_exibicao.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <img src="../Images/1243879.png" style="float:left; width:100px;height:100px;margin-top:43px;">
+        <img src="../Images/1243879.png">
         <h1>VAI VER O QUE?</h1>
-        <img src="../Images/popcorn.png" style="float:right;width:100px;height:100px;margin-top:-120px;">
+        <img src="../Images/popcorn.png">
     </header>
     <nav>
         <ul class="links_navegacao">                
@@ -23,12 +23,12 @@
         </ul>
     </nav>
 
-    <div class="center">
-        <a>Em Exibição</a>
-        <p>
-            
-        </p>
-    </div>
+    <main>
+        <div class="movie-list">
+            <h2>Melhores Filmes em Cartaz</h2>
+            <ul id="movies-list"></ul>
+        </div>
+    </main>
 
     <footer>
         <div class="rodape">
@@ -45,5 +45,6 @@
             <p>copyright &copy;2023 VaiVerOQue? designed by <span>Arthur Sabino, Marcos Dalessandro, Luiz Nelson.</span></p>
         </div>
     </footer>
+    <script src="../Scritps/catalogo.js"></script>
 </body>
 </html>
