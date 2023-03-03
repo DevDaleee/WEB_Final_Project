@@ -156,9 +156,8 @@ h2{
     padding: 0px 20px;
 }
 
-.links_navegacao li a{
-    background-image: linear-gradient(to top, rgba(136, 17, 17, 0.5), transparent);
-    font-weight: 500;
+.links_navegacao li a{    
+    background-color: #781313;    font-weight: 500;
     font-size: 16px;
     border-radius: 5px;
     color: white;
