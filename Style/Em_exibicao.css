@@ -60,6 +60,20 @@ h2{
     padding: 2%;
 }
 
+.movie-description {
+    max-height: 80px;
+}
+  
+.show-more-button {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    cursor: pointer;
+}
+  
+
 .movie-list {
     margin-bottom: 0;
     background-color: #4B4545;
@@ -92,6 +106,7 @@ h2{
     transform: translateY(-5px);
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
     color: white;
+    border:solid 1px #781313;
 }
 
 .movie-list li:hover h3,
@@ -99,6 +114,10 @@ h2{
   background-color: #4B4545;
 }
 
+.movie-list li:hover .show-more-button {
+    background-color: #781313;
+    color: white;
+}
 
 .movie-list li img {
     border-radius: 5px 5px 0 0;
