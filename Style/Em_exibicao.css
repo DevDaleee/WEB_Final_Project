@@ -340,14 +340,6 @@ footer{
         margin-left: 2vw;
         margin-right: 5vw;
     }
-    
-    .links_navegacao {
-        display: grid;
-        height: auto;
-        width: auto;
-        text-align: center;
-    }
-
     .links_navegacao li a {
         font-size: 9px;
     }

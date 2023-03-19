@@ -379,12 +379,6 @@ footer{
         max-width: 100px;
         max-height: 50px;
     }
-
-    .links_navegacao {
-        height: auto;
-        width: auto;
-        text-align: center;
-    }
     .links_navegacao li a {
         font-size: 9px;
     }

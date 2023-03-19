@@ -7,7 +7,6 @@
     padding: 0;
     font-family: "Inner", sans-serif;
     width: 100%;
-    flex-direction: row;
 }
 
 header {
@@ -60,28 +59,26 @@ h2{
     padding: 2%;
 }
 
-.movie-description {
-    max-height: 500px;
-    max-width: 500px;
+.card-description {
+    overflow: hidden;
 }
-  
-.movie-list {
+
+.card-list {
     margin-bottom: -10px;
     background-color: #4B4545;
     overflow-x: hidden;
     width: 100%;
-    margin-left: -20px;
-  }
-  
-.movie-list h2 {
+}
+
+.card-list h2 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.movie-list li {
+.card-list li {
     flex-basis: calc(25% - 10px);
-    margin-left: 50px;
-    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
     background-color: #781313;
     border-radius: 5px;
     height: auto;
@@ -93,15 +90,14 @@ h2{
     width: calc(25% - 10px);
 }
 
-.movie-list li:hover{
+.card-list li:hover{
     transform: translateY(-5px);
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
     color: white;
     border:solid 1px #781313;
 }
 
-
-.movie-list li h3 {
+.card-list li h3 {
     background-color: #781313;
     color: #fff;
     margin: 0;
@@ -112,7 +108,7 @@ h2{
     transition: background-color 0.2s ease-in-out;
 }
 
-.movie-list li p {
+.card-list li p {
     background-color: #781313;
     color: #fff;
     font-size: 20px;
@@ -123,15 +119,14 @@ h2{
     justify-content: center;
 }
 
-.movie-list ul{
+.card-list ul{
     background-color: #4B4545;
     height: max-content;
     display: flex;
-    flex-wrap: normal;
-    justify-content: center ;
+    flex-wrap: nowrap;
+    justify-content: center;
     padding: 10px;
 }
-
 
 .links_navegacao {
     list-style: none;
@@ -141,7 +136,6 @@ h2{
     justify-content: center;
     align-items: center;   
 }
-
 
 .links_navegacao li{
     display: inline-block;
@@ -168,12 +162,11 @@ h2{
     transition: all 0.3s ease 0s;
 }
 
-
 footer{
     overflow-x: hidden;  
     position: relative;
     display:relative;
-    bottom: -5rem;
+    bottom: 6rem;
     left: 0rem;
     right: 0rem;
     max-height: 100%;
@@ -305,53 +298,42 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
-
     header h1{
         font-size: 25px;
         
     }
+
     header img {
         width: 7vw;
         height: 7vw;
         margin-left: 2vw;
         margin-right: 5vw;
     }
-    
-    .links_navegacao {
-        display: grid;
-        height: auto;
-        width: auto;
-        text-align: center;
-    }
 
     .links_navegacao li a {
         font-size: 9px;
     }
-    .movie-list h2{
-        font-size: 30px;
-        text-align: center;
-    }
-    .movie-list {
-        display: block;
+
+    .card-list ul{
+        background-color: #4B4545;
+        height: max-content;
+        width: 1500px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 10px;
     }
-    
-    .movie-list li img{
-        height: 200px;
-    }
-    .movie-list li{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction:column;
-        flex-wrap: wrap;
-    }
+
+
     footer{
-        margin-top: -300px;
+        bottom: 0;
     };
 }   
 
-@media only screen and (min-height: 1024px) {
+@media only screen and (max-height: 1024px) {
     footer{
-        margin-top: -377px;
-    }
+       margin-top: 50px;
+        bottom: 0;
+    }  
 }

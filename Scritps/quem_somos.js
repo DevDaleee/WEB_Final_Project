@@ -1,4 +1,4 @@
-let movies = [
+let cards = [
     {
         title: "Problema",
         desc: "A desigualdade na distribuição e promoção de filmes é um problema significativo no mundo cinematográfico. No entanto, com esforços contínuos para promover a diversidade e igualdade de oportunidades, há esperança de que a indústria do entretenimento cinematográfico se torne mais inclusiva e diversificada, permitindo que todos os tipos de filmes tenham uma chance justa de serem vistos pelo público em geral. Mas que acima de tudo, a comunidade em geral que não tem as condições necessárias para ver todos os filmes em cartaz possa escolher da forma mais assertiva possível na hora de ir ao cinema.",   
@@ -11,28 +11,24 @@ let movies = [
     }
 ];
 
-let moviesList = document.getElementById("movies-list");
+let cardsList = document.getElementById("cards-list");
 
 // Adicionar cada filme à lista
-for (let i = 0; i < movies.length; i++) {
-    let movie = movies[i];
+for (let i = 0; i < cards.length; i++) {
+    let card = cards[i];
 
     // Criar elementos HTML para cada filme
     let li = document.createElement("li");
-    li.dataset.genre = movie.genero;
-    let img = document.createElement("img");
-    img.src = movie.poster;
-    img.alt = movie.title;
     let h3 = document.createElement("h3");
-    h3.textContent = movie.title;
+    h3.textContent = card.title;
     let p = document.createElement("p");
-    p.classList.add("movie-description");
-    let showMoreBtn = document.createElement("button");
-    p.textContent = movie.desc;
+    p.classList.add("cards-list");
+    p.textContent = card.desc;
+    
     // Adicionar elementos HTML ao li
     li.appendChild(h3);
     li.appendChild(p);
 
     // Adicionar li à lista de filmes
-    moviesList.appendChild(li);
+    cardsList.appendChild(li);
 }
