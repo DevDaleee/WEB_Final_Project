@@ -1,24 +1,24 @@
 let movies = [
     {
         title: "Homem-Formiga e a Vespa: Quantumania",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "É a vez de Scott Lang e Hope Van Dyne explorarem o Reino Quântico, conhecer criaturas completamente novas e embarcar numa aventura que pode ter enormes consequências para o universo. Mas lá mora um tirano poderoso.",
         poster: "../Images/catalogo_filmes/em_exibicao/h_formiga.jpg",
         genero: "teste"
     },
     {
         title: "Gemini: Planeta Sombrio",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "Depois de esgotar os recursos da Terra, a sobrevivência da humanidade requer uma missão ao espaço sideral, onde algo inimaginável está à espreita.",
         poster: "../Images/catalogo_filmes/em_exibicao/planeta_sombrio.jpg",
         genero: "teste"
     },{
         title: "O Menino e o Tigre",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "O órfão Balmani resgata o filhote de tigre Mukti de caçadores cruéis e, juntos, eles partem em uma aventura para encontrar um lar seguro para o tigre.",
         poster: "../Images/catalogo_filmes/em_exibicao/o_m_e_o_tigre.jpg",
         genero: "teste"
     },
     {
         title: "Tudo em Todo Lugar ao Mesmo Tempo ",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "Uma ruptura interdimensional bagunça a realidade e uma inesperada heroína precisa usar seus novos poderes para lutar contra os perigos bizarros do multiverso.",
         poster: "../Images/catalogo_filmes/em_exibicao/tudo_em_todo_lugar.jpg",
         genero: "teste"
     }

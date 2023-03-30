@@ -1,25 +1,25 @@
 let movies = [
     {
         title: "Gato de Botas 2",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele já gastou oito de suas nove vidas. Ele então parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas.",
         poster: "../Images/catalogo_filmes/gato_botas_2.jpg",
         genero: "teste"
     },
     {
         title: "M3gan",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "M3GAN é uma maravilha da inteligência artificial, uma boneca realista programada para ser a melhor amiga de uma criança. Uma robótica brilhante dá a sua jovem sobrinha um protótipo M3GAN, mas a máquina logo se torna violenta.",
         poster: "../Images/catalogo_filmes/megan-poster-nacional.jpg",
         genero: "teste"
     },
     {
         title: "Chef Jack",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "Os chefs Jack e Leonard vão cruzar as Ilhas Culinárias para completar as provas da 'Convergência de Sabores', a maior competição gastronômica do mundo e tentar vencer seus concorrentes.",
         poster: "../Images/catalogo_filmes/chef-jack-poster.jpg",
         genero: "teste"
     },
     {
         title: "Avatar",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        desc: "No exuberante mundo alienígena de Pandora vivem os Na'vi, seres que parecem ser primitivos, mas são altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos biológicos controlados pela mente humana.",
         poster: "../Images/catalogo_filmes/avatar.jpg",
         genero: "teste"
     }
